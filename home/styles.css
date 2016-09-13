@@ -1,0 +1,133 @@
+@import 'https://fonts.googleapis.com/css?family=Neucha';
+
+body {
+	width: 100vw;
+	margin: 0 auto;
+	padding: 0vw;
+	background-color: #545C5C;
+	color: #323232;
+	font-family: 'Neucha', verdana;
+	font-size: 22pt;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a:hover {
+    background-color: #444A4A;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    padding: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-bar{
+	width: 100vw;
+	height: 73px;
+	padding: 0 0 12px;
+	position: absolute;
+	opacity: 1;
+	z-index: 6;
+
+}
+
+.intro-scene{
+	width: 80vw;
+	height: 80vh;
+	top: 5vh;
+	position: absolute;
+	opacity: 1;
+}
+
+.center_card{
+	height: 60vh;
+	top: 22vh;
+	position: absolute;
+	opacity: 1;
+	margin-left: 27vw;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+
+.shadow_card{
+	box-shadow: .4em .4em 3.75em rgba(0,0,0,0.5);
+}
+
+.intro_card_image{
+	position: absolute;
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-filter: contrast(20%);
+	filter: contrast(20%);
+}
+
+.intro_card-games{
+	height: 38vh;
+	top: 30vh;
+	margin-left:12vw;
+	z-index: 2;
+}
+
+.intro_card-cafe{
+	height: 45vh;
+	top: 5vh;
+	margin-left:5vw;
+	z-index: 1;
+}
+
+.intro_card-about{
+	height:45vh;
+	top: 30vh;
+	margin-left:57vw;
+	z-index: 3;
+}
+
+.intro_card-vlog{
+	height:38vh;
+	top: 52vh;
+	margin-left:55vw;
+	z-index: 4;
+}
+
+.intro_card_image:hover{
+	z-index: 10;
+	-webkit-filter: contrast(100%);
+	filter: contrast(100%);
+}
+
+
+.center_title{
+	height: 60vh;
+	top: 22vh;
+	position: absolute;
+	opacity: 0;
+	margin-left: 27vw;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 6;
+	-webkit-transition: opacity 0.9s;
+}
+
+.center_title:hover{
+	opacity: 1;
+}
