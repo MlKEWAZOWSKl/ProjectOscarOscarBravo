@@ -53,11 +53,11 @@ li a {
 
 }
 
-p{
+h1{
 	position: absolute;
 	font-size: 72pt;
 	margin-left: 27%;
-	top: -20;
+	top: -10;
 	color: #1495B2;
 	z-index: 1;
 	text-transform: uppercase;

@@ -52,11 +52,11 @@ li a {
 	z-index: 1;
 }
 
-p{
+h1{
 	position: absolute;
 	font-size: 72pt;
 	margin-left: 27%;
-	top: -20;
+	top: -10;
 	color: #BF2861;
 	z-index: 1;
 	text-transform: uppercase;
