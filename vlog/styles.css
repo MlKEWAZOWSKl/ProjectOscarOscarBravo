@@ -42,7 +42,7 @@ li a {
 	width: 100vw;
 	height: 150px;
 	padding: 0 0 12px;
-	position: absolute;
+	position: fixed;
 	opacity: 1;
 	background-color: #015366;
 }
@@ -55,12 +55,54 @@ li a {
 }
 
 h1{
-	position: absolute;
 	font-size: 72pt;
-	margin-left: 27%;
-	top: -10;
 	color: #F5D04C;
 	z-index: 1;
 	text-transform: uppercase;
 	font-weight: normal;
+}
+
+#page-title{
+	position: absolute;
+	margin-left: 27%;
+	top: -10;
+}
+
+.entry-template{
+	position: relative;
+	width: 100vw;
+	top: 150px;
+	height: 500px;
+	opacity: 1;
+}
+
+h3{
+	font-size: 50pt;
+	color: #F5D04C;
+	font-weight: normal;
+}
+
+h5{
+	font-size: 30pt;
+	color: #F5D04C;
+	font-weight: normal;
+}
+
+p{
+	font-size: 18pt;
+	color: black;
+	font-weight: normal;
+}
+
+#entry-title{
+	margin-left: 2%;
+	top: 10px;
+}
+
+#entry-date{
+	margin-left: 2%;
+}
+
+#entry-info{
+	margin-left: 2%;
 }

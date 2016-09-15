@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Neucha';
+
+body {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0vw;
+	background-color: #ffffff;
+	color: #323232;
+	font-family: 'Neucha', verdana;
+	font-size: 22pt;
+	overflow-x: hidden;
+}
+
+.header{
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: 9999;
+  	width: 100vw;
+  	height: 10vh;
+	border: 5px solid red;
+}
+
+.nav-sidebar{
+	position: relative;
+	top: 100px;
+	border: 5px solid blue;
+    margin: 0;
+    padding: 0;
+    width: 5%;
+    position: fixed;
+    height: 90vh;
+    overflow: auto;
+}
+
+.entry-box{
+	position: relative;
+	top: 100px;
+	height: 90vh;
+	margin-left: 5%;
+	border: 5px solid black;
+}
+
+.previous-entry{
+	width: 100vw;
+	height: 20%;
+	border: 5px solid green;
+}
+
+.current-entry{
+	width: 100vw;
+	height: 60%;
+	border: 5px solid yellow;
+}
+
+.next-entry{
+	width: 100vw;
+	height: 20%;
+	border: 5px solid purple;
+}
